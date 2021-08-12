@@ -1,8 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     margin:0;
     padding: 0;
 }
-
 span>i{
     margin-bottom: 0px;
 }
@@ -106,7 +109,7 @@ ul li{
 #step-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: 95vh;
+    grid-template-rows: 100vh;
     text-align: center;
     color: white;
 }
@@ -115,7 +118,7 @@ ul li{
     font-size: 96px;
     margin-top: 100px;
     margin-bottom: 30px;
-    transition: transform 1s;
+    transition: transform 0.3s;
 }
 #step-container label{
     font-family: 'Poppins', sans-serif;
@@ -156,19 +159,54 @@ ul li{
 #store-section{
     background-color: #f7eee2;
     text-align: center;
+    padding-top: 60px;
+}
+#fresh-food{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+#store-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+#store-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+#store-icons-container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 70vh;
+    margin-top: 80px;
+    padding:0px 80px 0px 80px;
 }
 .store-icon{
+    display: inline-block;
     background-color: #e3b375;
-    width:120px;
-    height: 120px;
-    font-size: 60px;
+    width:60px;
     color: white;
     border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+.store-icon>i{
+    font-size: 60px; 
 }
 .store-icon+h3{
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 .store-icon~p{
     font-family: 'Poppins', sans-serif;
@@ -176,4 +214,16 @@ ul li{
     letter-spacing: 0.5px;
     font-weight: 500;
     color: #8b8b99;
+}
+#camera-container:hover>div{
+    transform: scale(1.1);
+}
+#rocket-container:hover>div{
+    transform: scale(1.1);
+}
+#twitter-container:hover>div{
+    transform: scale(1.1);
+}
+#weixin-container:hover>div{
+    transform: scale(1.1);
 }
