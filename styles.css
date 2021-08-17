@@ -161,19 +161,19 @@ ul li{
     text-align: center;
     padding-top: 60px;
 }
-#fresh-food{
+.fresh-food{
     color: #91ac41;
     font-size: 24px;
     font-family: 'Caveat', cursive;
     margin: 0;
     margin-top: 35px;
 }
-#store-header{
+.store-header{
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-weight: 600;
 }
-#store-description{
+.store-description{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -226,4 +226,53 @@ ul li{
 }
 #weixin-container:hover>div{
     transform: scale(1.1);
+}
+#testimonial-section{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials-container{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 60vh;
+    margin-top: 80px;
+    text-align: center;
+}
+.testimonial-card{
+    background-color: #f5f6fb;
+    border-radius: 45px 0px 45px 45px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.testimonial-card>img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.testimonial{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: Italic;
+    color: #8b8b99;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+.author-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight:  600;
+}
+.author-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #8b8b99;
+    font-style: Italic;
+}
+.testimonial-card:hover{
+    box-shadow: 3px 7px 30px #f1f3fa;
 }
