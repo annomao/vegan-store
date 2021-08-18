@@ -172,6 +172,7 @@ ul li{
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 .store-description{
     font-family: 'Poppins', sans-serif;
@@ -229,8 +230,8 @@ ul li{
 }
 #testimonial-section{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 #testimonials-container{
     display: grid;
@@ -274,5 +275,5 @@ ul li{
     font-style: Italic;
 }
 .testimonial-card:hover{
-    box-shadow: 3px 7px 30px #f1f3fa;
+    box-shadow: 3px 7px 10px #f1f3fa;
 }
