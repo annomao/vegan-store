@@ -317,3 +317,8 @@ ul li{
     border-radius: 4px;
     margin-top: 16px;
 }
+#subscribe-btn:hover{
+    background-color: transparent;
+    color:#f69dad ;
+    border: 1px solid #f69dad;
+}
