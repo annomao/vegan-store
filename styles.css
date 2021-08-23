@@ -5,6 +5,7 @@
 body{
     margin:0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 span>i{
     margin-bottom: 0px;
@@ -321,4 +322,28 @@ ul li{
     background-color: transparent;
     color:#f69dad ;
     border: 1px solid #f69dad;
+}
+#stats-section{
+    background-color: #f6fcfa;
+}
+#stats-container{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 30vh;
+}
+.stats-item{
+    text-align: center;
+    padding-top: 20%;
+}
+.stats-item h3 {
+    font-size: 44px;
+    font-weight: 600;
+}
+.stats-item p {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
 }
